@@ -11,7 +11,7 @@ export default function Home({ setPage }) {
     <div className="min-h-screen font-sans selection:bg-amber-500 selection:text-white">
       
       {/* Hero Section */}
-      <div className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
+      <div className="relative h-screen min-h-[500px] lg:min-h-[700px] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
@@ -26,28 +26,28 @@ export default function Home({ setPage }) {
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[var(--bg-primary)] to-transparent"></div>
         </div>
 
-        <div className="container mx-auto px-6 relative z-10 text-center mt-20">
+        <div className="container mx-auto px-6 relative z-10 text-center mt-12 md:mt-20">
           <div className="hidden lg:flex w-full justify-start">
             <div className="inline-block px-4 py-1.5 rounded-full border border-white/20 bg-white/10 backdrop-blur-md mb-6 animate-fade-in-up">
               <span className="text-xs font-semibold tracking-wider text-amber-300 uppercase">Gateway to Serenity</span>
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-display leading-tight mb-6 !text-white animate-fade-in-up delay-100 drop-shadow-xl">
-            Escape to the <br />Heights of Luxury
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold font-display leading-tight mb-4 md:mb-6 !text-white animate-fade-in-up delay-100 drop-shadow-xl">
+            Escape to the <br className="hidden md:block"/>Heights of Luxury
           </h1>
           
-          <p className="text-lg md:text-xl text-white max-w-2xl leading-relaxed mb-10 animate-fade-in-up delay-200 drop-shadow-lg font-medium mx-auto">
+          <p className="text-base md:text-xl text-white max-w-2xl leading-relaxed mb-8 md:mb-10 animate-fade-in-up delay-200 drop-shadow-lg font-medium mx-auto">
             {HOTEL_INFO.description}
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 animate-fade-in-up delay-300">
-            <button onClick={() => window.open(BOOKING_URL, '_blank')} className="group relative px-8 py-4 bg-amber-500 text-white rounded-full font-bold overflow-hidden hover:bg-amber-600 transition shadow-lg hover:shadow-amber-500/25">
+            <button onClick={() => window.open(BOOKING_URL, '_blank')} className="group relative px-6 py-3 md:px-8 md:py-4 bg-amber-500 text-white rounded-full font-bold overflow-hidden hover:bg-amber-600 transition shadow-lg hover:shadow-amber-500/25">
               <span className="relative z-10 flex items-center">
                 Reserve Your Stay <ArrowUpRight className="ml-2 w-5 h-5 group-hover:rotate-45 transition-transform" />
               </span>
             </button>
-            <button onClick={() => setShowGallery(true)} className="px-8 py-4 rounded-full border border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transition flex items-center font-medium">
+            <button onClick={() => setShowGallery(true)} className="px-6 py-3 md:px-8 md:py-4 rounded-full border border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transition flex items-center font-medium">
               View Gallery
             </button>
           </div>
