@@ -26,19 +26,20 @@ export default function Home({ setPage }) {
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[var(--bg-primary)] to-transparent"></div>
         </div>
 
-        <div className="container mx-auto px-6 relative z-10 text-center mt-12 md:mt-20">
+        <div className="container mx-auto px-6 relative z-10 text-center md:mt-20">
           <div className="hidden lg:flex w-full justify-start">
             <div className="inline-block px-4 py-1.5 rounded-full border border-white/20 bg-white/10 backdrop-blur-md mb-6 animate-fade-in-up">
               <span className="text-xs font-semibold tracking-wider text-amber-300 uppercase">Gateway to Serenity</span>
             </div>
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold font-display leading-tight mb-4 md:mb-6 !text-white animate-fade-in-up delay-100 drop-shadow-xl">
+          <h1 className="text-3xl md:text-6xl lg:text-8xl font-bold font-display leading-tight mb-3 md:mb-6 !text-white animate-fade-in-up delay-100 drop-shadow-xl">
             Escape to the <br className="hidden md:block"/>Heights of Luxury
           </h1>
           
-          <p className="text-base md:text-xl text-white max-w-2xl leading-relaxed mb-8 md:mb-10 animate-fade-in-up delay-200 drop-shadow-lg font-medium mx-auto">
-            {HOTEL_INFO.description}
+          <p className="text-sm md:text-xl text-white max-w-2xl leading-relaxed mb-6 md:mb-10 animate-fade-in-up delay-200 drop-shadow-lg font-medium mx-auto px-4">
+            <span className="md:hidden">Your gateway to serenity in the mist-covered peaks of Amboli Ghat. Experience luxury amidst nature.</span>
+            <span className="hidden md:inline">{HOTEL_INFO.description}</span>
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 animate-fade-in-up delay-300">
