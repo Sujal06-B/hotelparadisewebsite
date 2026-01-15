@@ -15,7 +15,7 @@ export default function Home({ setPage }) {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/792820431.jpg" 
+            src="images/792820431.jpg" 
             alt="Hotel Paradise Exterior" 
             className="w-full h-full object-cover scale-105 animate-slow-zoom brightness-[0.95]" 
           />

@@ -28,18 +28,18 @@ export const HOTEL_INFO = {
 };
 
 export const GALLERY_IMAGES = [
-  { src: "/images/792820376.jpg", category: "Exterior" },
-  { src: "/images/792820391.jpg", category: "Exterior" },
-  { src: "/images/792820417.jpg", category: "Common Area" },
-  { src: "/images/792820418.jpg", category: "Room" },
-  { src: "/images/792820421.jpg", category: "Room" },
-  { src: "/images/792820425.jpg", category: "Room" },
-  { src: "/images/792820429.jpg", category: "Dining" },
-  { src: "/images/792820431.jpg", category: "Common Area" },
-  { src: "/images/792820438.jpg", category: "Room" },
-  { src: "/images/792820451.jpg", category: "Bathroom" },
-  { src: "/images/792820462.jpg", category: "Room" },
-  { src: "/images/792820463.jpg", category: "Bathroom" }
+  { src: "images/792820376.jpg", category: "Exterior" },
+  { src: "images/792820391.jpg", category: "Exterior" },
+  { src: "images/792820417.jpg", category: "Common Area" },
+  { src: "images/792820418.jpg", category: "Room" },
+  { src: "images/792820421.jpg", category: "Room" },
+  { src: "images/792820425.jpg", category: "Room" },
+  { src: "images/792820429.jpg", category: "Dining" },
+  { src: "images/792820431.jpg", category: "Common Area" },
+  { src: "images/792820438.jpg", category: "Room" },
+  { src: "images/792820451.jpg", category: "Bathroom" },
+  { src: "images/792820462.jpg", category: "Room" },
+  { src: "images/792820463.jpg", category: "Bathroom" }
 ];
 
 export const BOOKING_URL = "https://www.booking.com/hotel/in/oyo-73079-paradise.en-gb.html?aid=2127562&label=metagha-link-MRIN-hotel-15330350_dev-desktop_los-1_bw-7_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-dg_aud-0_gacid-_mcid-10_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260122_ppt-GBd&sid=00e67883849ba1932122fd822070391c&all_sr_blocks=1533035001_424836970_2_2_0&checkin=2026-01-22&checkout=2026-01-23&dest_id=15330350&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1533035001_424836970_2_2_0&hpos=1&map=1&matching_block_id=1533035001_424836970_2_2_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1533035001_424836970_2_2_0__105875&srepoch=1768477851&srpvid=dab55345b8b40813&type=total&ucfs=1&#map_opened";
@@ -54,7 +54,7 @@ export const ROOMS = [
     price: 3500,
     originalPrice: 5000,
     discount: "Premium Offer",
-    image: "/images/792820418.jpg",
+    image: "images/792820418.jpg",
     amenities: ["Panoramic View", "Climate Control", "Smart TV", "High-Speed WiFi", "Rain Shower", "Premium Toiletries"],
     rates: [
       { id: 1, price: 3500, plan: "Suite Only", breakfast: "Add Gourmet Breakfast ₹150", guests: 2 },
@@ -70,7 +70,7 @@ export const ROOMS = [
     price: 3000,
     originalPrice: 4200,
     discount: "Best Value",
-    image: "/images/792820421.jpg",
+    image: "images/792820421.jpg",
     amenities: ["Mountain View", "Private Balcony", "Work Desk", "WiFi", "Ensuite Bathroom"],
     rates: [
       { id: 1, price: 3000, plan: "Room Only", breakfast: "Add Breakfast ₹150", guests: 2 },
@@ -86,7 +86,7 @@ export const ROOMS = [
     price: 2500,
     originalPrice: 3500,
     discount: "Saver",
-    image: "/images/792820425.jpg",
+    image: "images/792820425.jpg",
     amenities: ["Quiet Location", "Flat Screen TV", "Tea/Coffee Maker", "Shower"],
     rates: [
       { id: 1, price: 2500, plan: "Room Only", breakfast: "Available", guests: 2 },
@@ -97,62 +97,62 @@ export const ROOMS = [
 export const FACILITIES_CATEGORIES = [
   {
     name: "Bathroom",
-    image: "/images/792820463.jpg",
+    image: "images/792820463.jpg",
     items: ["Towels", "Bath or shower", "Private bathroom", "Toilet", "Free toiletries"]
   },
   {
     name: "Bedroom",
-    image: "/images/792820418.jpg",
+    image: "images/792820418.jpg",
     items: ["Linen", "Wardrobe or closet"]
   },
   {
     name: "View",
-    image: "/images/792820391.jpg",
+    image: "images/792820391.jpg",
     items: ["View", "Mountain View", "Landmark View"]
   },
   {
     name: "Outdoors",
-    image: "/images/792820376.jpg",
+    image: "images/792820376.jpg",
     items: ["Garden", "Terrace", "Balcony"]
   },
   {
     name: "Kitchen",
-    image: "/images/792820429.jpg",
+    image: "images/792820429.jpg",
     items: ["Shared kitchen", "Cleaning products"]
   },
   {
     name: "Living Area",
-    image: "/images/792820417.jpg",
+    image: "images/792820417.jpg",
     items: ["Seating area", "Desk"]
   },
   {
     name: "Media & Technology",
-    image: "/images/792820421.jpg",
+    image: "images/792820421.jpg",
     items: ["Flat-screen TV", "Telephone", "Satellite channels", "Cable channels"]
   },
   {
     name: "Food & Drink",
-    image: "/images/792820429.jpg",
+    image: "images/792820429.jpg",
     items: ["Restaurant", "Breakfast in the room", "Room service"]
   },
   {
     name: "Internet",
-    image: "/images/792820431.jpg",
+    image: "images/792820431.jpg",
     items: ["WiFi is available in all areas and is free of charge."]
   },
   {
     name: "Parking",
-    image: "/images/792820376.jpg",
+    image: "images/792820376.jpg",
     items: ["Free public parking is possible on site.", "Street parking"]
   },
   {
     name: "Services",
-    image: "/images/792820431.jpg",
+    image: "images/792820431.jpg",
     items: ["Daily housekeeping", "Luggage storage", "Wake-up service", "24-hour front desk"]
   },
   {
     name: "Safety & Security",
-    image: "/images/792820391.jpg",
+    image: "images/792820391.jpg",
     items: ["Fire extinguishers", "CCTV in common areas", "Key card access", "Key access"]
   }
 ];

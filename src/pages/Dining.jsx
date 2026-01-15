@@ -50,8 +50,8 @@ export default function Dining() {
           </div>
           
           <div className="md:w-1/2 grid grid-cols-2 gap-4 mt-8 md:mt-0">
-             <img src="/images/792820429.jpg" className="rounded-2xl shadow-lg w-full aspect-[3/4] object-cover transform hover:scale-105 transition duration-500" alt="Dining 1" />
-             <img src="/images/792820421.jpg" className="rounded-2xl shadow-lg w-full aspect-[3/4] object-cover md:translate-y-8 transform hover:scale-105 transition duration-500" alt="Dining 2" />
+             <img src="images/792820429.jpg" className="rounded-2xl shadow-lg w-full aspect-[3/4] object-cover transform hover:scale-105 transition duration-500" alt="Dining 1" />
+             <img src="images/792820421.jpg" className="rounded-2xl shadow-lg w-full aspect-[3/4] object-cover md:translate-y-8 transform hover:scale-105 transition duration-500" alt="Dining 2" />
           </div>
         </div>
       </div>
