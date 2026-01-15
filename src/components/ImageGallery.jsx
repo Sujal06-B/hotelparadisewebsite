@@ -8,8 +8,8 @@ export default function ImageGallery({ images, onClose, initialIndex = 0 }) {
   const prevImage = () => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
 
   return (
-    <div className="fixed inset-0 z-[60] bg-black bg-opacity-95 flex flex-col items-center justify-center">
-      <button onClick={onClose} className="absolute top-4 right-4 text-white hover:text-gray-300">
+    <div className="fixed inset-0 z-[100] bg-black bg-opacity-95 flex flex-col items-center justify-center">
+      <button onClick={onClose} className="absolute top-4 right-4 z-50 text-white bg-black/50 p-2 rounded-full hover:bg-white/20 transition-all duration-300">
         <X size={32} />
       </button>
 

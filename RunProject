@@ -1,0 +1,20 @@
+Run the main Project
+
+npm run dev 
+
+
+Push to git 
+
+git status
+
+git add .
+
+git commit -m "message "
+
+git push -u origin main 
+
+
+
+Deployment 
+
+npm run deploy
